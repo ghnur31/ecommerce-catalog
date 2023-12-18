@@ -1,0 +1,62 @@
+:root {
+  --navyBlue: #002772;
+  --magentaPurple: #720060;
+  --lightBlue: #d6e6ff;
+  --lightPurple: #fde2ff;
+  --black: #1e1e1e;
+  --darkGray: #3f3f3f;
+  --gray: #dcdcdc;
+  --white: #ffffff;
+}
+
+.bg-navyBlue {
+  background-color: var(--navyBlue);
+}
+
+.bg-magentaPurple {
+  background-color: var(--magentaPurple);
+}
+
+.bg-gray {
+  background: linear-gradient(to bottom, var(--gray) 70%, var(--white) 30%);
+}
+
+.bg-lightBlue {
+  background: linear-gradient(
+    to bottom,
+    var(--lightBlue) 70%,
+    var(--white) 30%
+  );
+}
+
+.bg-lightPurple {
+  background: linear-gradient(
+    to bottom,
+    var(--lightPurple) 70%,
+    var(--white) 30%
+  );
+}
+
+.color-navyBlue {
+  color: var(--navyBlue);
+}
+
+.color-magentaPurple {
+  color: var(--magentaPurple);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.border-navyBlue {
+  background-color: var(--white);
+  color: var(--darkBlue);
+  border: 3px solid var(--navyBlue);
+}
+
+.border-magentaPurple {
+  background-color: var(--white);
+  color: var(--magentaPurple);
+  border: 3px solid var(--magentaPurple);
+}
